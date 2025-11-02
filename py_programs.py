@@ -26,7 +26,7 @@ st.info("💬 *“Code is like humor. When you have to explain it, it’s bad.�
 
 # --- Next Page Button ---
 if st.button("Next ➡️"):
-    st.switch_page("lab1.py") # You can change to 'operators.py' or 'data_types.py'
+    st.switch_page("pages/lab1.py") # You can change to 'operators.py' or 'data_types.py'
 
 # --- Footer ---
 st.markdown("---")
