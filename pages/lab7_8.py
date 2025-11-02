@@ -238,7 +238,7 @@ with col2:
 
 with col3:
     if st.button("➡️ Next"):
-        st.success("pages/lab9_10.py")  # Next page
+        st.switch_page("pages/lab9_10.py")  # Next page
 
 # ---- Footer ----
 st.markdown("---")
@@ -248,3 +248,4 @@ st.caption("💡 Created by Sundram Gupta | Advanced Python Practice 💻")
 # ---- Footer ----
 st.markdown("---")
 st.caption("💡 Made with ❤️ using Streamlit | Practice • Learn • Build • Repeat 🔁")
+
