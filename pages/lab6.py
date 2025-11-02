@@ -145,7 +145,7 @@ with col2:
 
 with col3:
     if st.button("➡️ Next"):
-        st.success("🎉 You have reached the last page!")
+        st.switch_page("pages/lab7_8.py")
 
 # --- Footer ---
 st.markdown("---")
